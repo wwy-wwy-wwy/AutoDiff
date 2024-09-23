@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "AutoDiffPy"
+version = "1.0.0"
+authors = [
+  { name="Wenyun Wang", email="wwang@g.harvard.edu" },
+  { name="Anqi Chen"},{ name="William Walt"},{ name="Emma Ton"},{ name="Zhang Wu"},
+]
+description = "Automatic differentiation package with forward and backward mode"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
