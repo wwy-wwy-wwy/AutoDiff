@@ -7,7 +7,7 @@ name = "AutoDiffPy"
 version = "1.0.0"
 authors = [
   { name="Wenyun Wang", email="wwang@g.harvard.edu" },
-  { name="Anqi Chen"},{ name="William Walt"},{ name="Emma Ton"},{ name="Zhang Wu"},
+  { name="Anqi Chen"},{ name="Williams Walt"},{ name="Emma Ton"},{ name="Zhang Wu"},
 ]
 description = "Automatic differentiation package with forward and backward mode"
 readme = "README.md"
@@ -19,4 +19,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
+"Homepage" = "https://github.com/wwy-wwy-wwy/AutoDiffPy.git"
