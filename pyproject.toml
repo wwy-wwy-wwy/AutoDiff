@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "AutoDiffPy"
+name = "AutoDiffPython"
 version = "1.0.0"
 authors = [
   { name="Wenyun Wang", email="wwang@g.harvard.edu" },
