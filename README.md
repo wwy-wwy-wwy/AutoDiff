@@ -4,7 +4,7 @@
 
 There are many problems in modern computation that require computing gradients and derivatives of complex functions. From calculating the movement or flow of electricity, motion of an object to and from like a pendulum, to explaining thermodynamics concepts, solving differential equations is essential for science and engineering. 
 
-In the case of extremely complicated functions such as neural networks, the calculation and storage of these derivatives can be quite complex and cumbersome. The problem grows even worse when taking into account that the input to these functions can be extremely high-dimensional. To this end we introduce AutoDiffPython, a library for Automatic Differentiation that provides users a simple and intuitive API for the automatic calculation and storage of derivatives.
+In the case of extremely complicated functions such as neural networks, the calculation and storage of these derivatives can be quite complex and cumbersome. The problem grows even worse when taking into account that the input to these functions can be extremely high-dimensional. To this end we introduce AD27, a library for Automatic Differentiation that provides users a simple and intuitive API for the automatic calculation and storage of derivatives.
 
 ## Background
 
@@ -59,7 +59,7 @@ $ source test_env/bin/activate
 - Step5. Install our package
 
 ```bash
-$ python3 -m pip install AutoDiffPython
+$ python3 -m pip install AD27
 ```
 
 - Step6. Install the Numpy Library
@@ -168,7 +168,7 @@ $ deactivate
 ## Software Organization
 ### Directory Structure
 ```
-AutoDiffPython/
+AD27/
 ├── __init__.py
 |
 └── autodiff/
@@ -212,7 +212,7 @@ AutoDiffPython/
 
 Our package is released on PyPI. Therefore, you will be able to easily pip install our package with the following command:
 ```bash
-$ python3 -m pip install AutoDiffPython
+$ python3 -m pip install AD27
 ```
 
 ## Implementation Details
